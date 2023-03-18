@@ -16,10 +16,9 @@ void TestStack1()
 	StackPop(&st);
 	StackPop(&st);
 	StackPop(&st);
-	
-	//StackPop(&st);
+	StackPop(&st);
 	//printf("%d\n", StackTop(&st));
-	StackDestroy(&st);
+	//StackDestroy(&st);
 }
 
 void TestStack2()
@@ -50,6 +49,7 @@ void TestStack2()
 
 int main()
 {
+	//TestStack1();
 	TestStack2();
 	return 0;
 }
